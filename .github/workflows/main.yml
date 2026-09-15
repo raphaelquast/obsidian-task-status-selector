@@ -25,10 +25,11 @@ jobs:
                       main.js
                       manifest.json
                       styles.css
-
-            - uses: ncipollo/release-action@v1
+            
+            - name: GH Release
+              uses: softprops/action-gh-release@v3.0.0  
               with:
-                  artifacts: |
+                  files: |
                       main.js
                       manifest.json
                       styles.css
