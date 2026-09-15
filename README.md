@@ -28,10 +28,10 @@ If one (or more) **lines of text are selected**:
 
 Here's how it looks like in action:
 
-![showcase](showcase.gif)
+<img src="showcase.gif" width=50%>
 
 ## Settings
 
 The settings allow to disable inline-autocompletion and to customize the list of suggested task-statuses.
 
-![showcase](settings.png)
+<img src="settings.png" width=80%>
