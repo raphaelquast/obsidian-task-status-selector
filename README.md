@@ -12,7 +12,7 @@ A simple minimalistic plugin to help dealing with custom checkbox statuses.
 ---
 
 > [!TIP]
-> #### The `Add Task Status` command can be used to add or change task statuses!
+> #### The `Add Task Status` command can be used to <ins>add or change</ins> task statuses!
 > 
 > - <ins>**Active line is empty**:</ins> A new task with the selected status is created
 > - <ins>**Active line contains a task**:</ins> The task status is changed to the selected status
