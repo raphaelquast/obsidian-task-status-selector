@@ -1,4 +1,4 @@
-# Task Status Selctor
+# Task Status Selector
 
 A simple minimalistic plugin to help dealing with custom checkbox statuses.  
 (on Desktop and Mobile)
