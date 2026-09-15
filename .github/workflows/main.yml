@@ -21,19 +21,14 @@ jobs:
             - name: Generate main.js attestation
               uses: actions/attest@v4
               with:
-                  subject-path: main.js
-                  
-            - name: Generate manifest.json attestation
-              uses: actions/attest@v4
-              with:
-                  subject-path: manifest.json
-                  
-            - name: Generate styles.css attestation
-              uses: actions/attest@v4
-              with:
-                  subject-path: styles.css
+                  subject-path: |
+                      main.js
+                      manifest.json
+                      styles.css
 
-
-                  
-                      
-                      
+            - uses: ncipollo/release-action@v1
+              with:
+                  artifacts: |
+                      main.js
+                      manifest.json
+                      styles.css
