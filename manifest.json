@@ -3,7 +3,7 @@
 	"name": "Task Status Selector",
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
-	"description": "A plugin to simplify using custom task status icons.",
+	"description": "Simplify usage of custom task status icons.",
 	"author": "raphaelquast",
 	"authorUrl": "https://github.com/raphaelquast",
 	"isDesktopOnly": false
