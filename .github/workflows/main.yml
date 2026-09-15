@@ -18,10 +18,22 @@ jobs:
             - name: Checkout
               uses: actions/checkout@v7
             
-            - name: Generate artifact attestation
+            - name: Generate main.js attestation
               uses: actions/attest@v4
               with:
-                  subject-path: |
-                      main.js
-                      manifest.json
-                      styles.css
+                  subject-path: main.js
+                  
+            - name: Generate manifest.json attestation
+              uses: actions/attest@v4
+              with:
+                  subject-path: manifest.json
+                  
+            - name: Generate styles.css attestation
+              uses: actions/attest@v4
+              with:
+                  subject-path: styles.css
+
+
+                  
+                      
+                      
