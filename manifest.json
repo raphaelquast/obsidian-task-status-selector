@@ -1,7 +1,7 @@
 {
 	"id": "task-status-selector",
 	"name": "Task Status Selector",
-	"version": "0.1.0",
+	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
 	"description": "A plugin to simplify using custom task status icons.",
 	"author": "raphaelquast",
