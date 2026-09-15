@@ -1,0 +1,10 @@
+.task_selection_modal_entry {
+  line-height: 0px;
+  margin: -10px;
+}
+
+.task_selection_settings_entry {
+  pointer-events:none;
+  margin: -15px;
+  width: 20ch;
+}
