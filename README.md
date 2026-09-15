@@ -1,4 +1,4 @@
-# Obsidian Task Status Selctor
+# Task Status Selctor
 
 A simple minimalistic plugin to help dealing with custom checkbox statuses.  
 (on Desktop and Mobile)
