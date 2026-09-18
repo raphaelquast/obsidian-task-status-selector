@@ -255,6 +255,7 @@ class TaskStatusEditorSuggest extends obsidian.EditorSuggest {
 	
 	editor.replaceRange(task_entry, {"line": cursor["line"], "ch": 0}, {"line": cursor["line"], "ch": Math.min(task_entry.length, curr_line_text.length)});
 	editor.setCursor({"line": cursor["line"], "ch": task_entry.length});
+	this.close()
   }
 }
 
