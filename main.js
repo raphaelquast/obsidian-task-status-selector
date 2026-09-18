@@ -223,7 +223,7 @@ class TaskStatusEditorSuggest extends obsidian.EditorSuggest {
   onTrigger(cursor, editor, file) {
 	  const current_line_text = editor.getLine(cursor.line)
 	  if ( current_line_text.startsWith("- [") ) {
-		  if ( current_line_text.length == 6 ) {return null;}
+		  if ( current_line_text.length >= 5 ) {return null;}
 		  return { 
 			  start: editor.getCursor(),
 				end: editor.getCursor(),
